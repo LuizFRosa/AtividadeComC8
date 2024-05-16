@@ -1,0 +1,28 @@
+# AtividadeComC8
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	float Fahrenheit;
+	
+	
+		
+	printf("Digite a temperatura em Fahrenheit ");
+	scanf("%f", &Fahrenheit);
+	
+
+	
+		// Calculo de temperatura em Farenheit para Celsius
+	
+	 	float celcius = (Fahrenheit - 32) / 1.8 ;
+
+ 
+	printf("\A temperatura em graus celcius e: %f ", celcius);
+	
+	printf("\A temperatura em Fahrenheit e: %f ", Fahrenheit);
+
+	return 0;
+	
+}
